@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* Custom CSS */
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+	color: #5c5c5c;
+	font-size: 14px;
+}
+
+.highlight-line {
+	width: 60px;
+	height: 7px;
+	background-color: #424242;
+	display: block;
+}
+
+/* Custom CSS */
+
+.top-bar {
+	height: 40px;
+	background-color: #f0f2f4;
+}
+
+.top-bar ul li {
+	font-size: 15px;
+	color: #424242;
+}
+
+.top-bar-icon-size {
+	font-size: 20px;
+}
+
+.top-bar-icon-size-fb {
+	font-size: 26px;
+	color: #1287bf;
+}
+
+.seperator {
+	height: 40px;
+	width: 1px;
+	background-color: #e2e2e2;
+	display: block;
+}
+
+/* Nav Header */
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+	color: #de2b24;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #424242;
+}
+
+.nav-seperator {
+	width: 6px;
+	height: 6px;
+	background-color: #424242;
+	border-radius: 10px;
+	display: block;
+}
+
+/* Banner Section */
+.banner {
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	min-height: 80vh;
+	padding-top: 20vh;
+	padding-bottom: 20vh;
+}
+
+.banner h1 {
+	font-size: 48px;
+}
+
+.banner h2 {
+	font-size: 30px;
+}
+
+.btn-banner {
+	background-color: #f8cd53;
+	font-size: 22px;
+}
+
+.btn-banner:hover {
+	background-color: #f8cd23;
+}
+
+/* About Us Section */
+.about-us h1 {
+	font-size: 36px;
+	color: #424242;
+}
+
+.about-us h2 {
+	font-size: 20px;
+	color: #424242;
+}
+
+/* Our Approch Section */
+.our-approch {
+	background-color: #f3f3f3;
+}
+
+.our-approch h1 {
+	font-size: 28px;
+	color: #424242;
+}
+
+.our-approch h2 {
+	font-size: 18px;
+	color: #424242;
+}
+
+.step {
+	width: 110px;
+	height: 110px;
+	background-color: #de2b24;
+	border: 2px solid #fff;
+}
+
+.step-position {
+	top: 25%;
+	right: -5%;
+}
+
+.step h4 {
+	font-size: 60px;
+}
+
+.step h5 {
+	font-size: 20px;
+}
+
+.step-position-2 {
+	top: 25%;
+	left: -5%;
+}
+
+/* Our Work Section */
+.our-work {
+	background-color: #de2b24;
+}
+
+.our-work h1 {
+	font-size: 28px;
+	color: #424242;
+}
+
+.our-work h2 {
+	font-size: 18px;
+	color: #424242;
+}
+
+.our-work-content {
+	background-color: #f35e59;
+}
+
+.our-work-icon {
+	font-size: 36px;
+}
+
+/* Newsletter Section */
+.newsletter {
+	background-color: #1287bf;
+}
+
+.newsletter h1 {
+	font-size: 28px;
+	color: #424242;
+}
+
+.newsletter h2 {
+	font-size: 18px;
+	color: #424242;
+}
+
+.newsletter-bg {
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.arrow-box {
+	width: 60px;
+	height: 60px;
+	background-color: white;
+	display: block;
+	top: 0;
+	left: 48.5%;
+	transform: rotate(45deg) translate(-50%);
+}
+
+.cross-circle {
+	width: 50px;
+	height: 50px;
+	background-color: #de2b24;
+	border: 1px solid white;
+	border-radius: 25px;
+	display: block;
+	top: -5%;
+	right: -5%;
+}
+
+.newsletter-text {
+	font-size: 15px;
+	color: #828282;
+}
+
+.form-control {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.form-control:focus {
+	color: #424242;
+	background-color: #fff;
+	border-color: #1287bf;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.15);
+}
+
+/* Get In Touch Section */
+.get-in-touch {
+	background-color: #2a2a2a;
+}
+
+.get-in-touch h1 {
+	font-size: 28px;
+	color: #424242;
+}
+
+.social-icon-box {
+	font-size: 25px;
+}
+
+.social li {
+	border: 1px solid #f3f3f3;
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.social li:hover {
+	border: 1px solid #de2b24;
+	cursor: pointer;
+}
+
+.custom-form-control {
+	color: #cecece;
+	background-color: #515151;
+	border: none;
+	border-radius: none;
+}
+
+.custom-form-control:focus {
+	color: #cecece;
+	background-color: #515151;
+	border: none;
+	border-radius: none;
+}
+
+.btn-custom {
+	background-color: transparent;
+}
+
+/* Footer Section */
+.footer {
+	background-color: #515151;
+}
+
+.footer p {
+	color: #cececd;
+}
+
+.footer p a {
+	color: #cececd;
+}
